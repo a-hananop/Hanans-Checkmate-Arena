@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="75%">
+      <stop offset="0%" stop-color="#17347a" />
+      <stop offset="70%" stop-color="#0b1d4a" />
+      <stop offset="100%" stop-color="#061125" />
+    </radialGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <path id="topArc" d="M 20 67 A 44 44 0 0 1 108 67" />
+    <path id="bottomArc" d="M 108 67 A 44 44 0 0 1 20 67" />
+  </defs>
+
+  <circle cx="64" cy="64" r="59" fill="url(#bg)" />
+  <circle cx="64" cy="64" r="57" fill="none" stroke="#0c2150" stroke-width="2.2" />
+  <circle cx="64" cy="64" r="54.5" fill="none" stroke="#4e78ea" stroke-width="1.8" opacity="0.95" filter="url(#softGlow)" />
+  <circle cx="64" cy="64" r="46.5" fill="none" stroke="#2b56b8" stroke-width="1.6" opacity="0.95" />
+
+  <rect x="53.5" y="24" width="21" height="72" fill="#f7f0dc" />
+  <rect x="24" y="51.5" width="80" height="22" fill="#f7f0dc" />
+
+  <text
+    font-size="10.8"
+    font-family="Georgia, Times New Roman, serif"
+    font-weight="700"
+    letter-spacing="1.1"
+    fill="#f8f2df"
+  >
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">HANAN'S</textPath>
+  </text>
+
+  <text
+    font-size="9.8"
+    font-family="Georgia, Times New Roman, serif"
+    font-weight="700"
+    letter-spacing="0.9"
+    fill="#f8f2df"
+  >
+    <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">CHECKMATE ARENA</textPath>
+  </text>
+
+  <text
+    x="64"
+    y="99"
+    text-anchor="middle"
+    font-size="5"
+    font-family="Georgia, Times New Roman, serif"
+    font-weight="700"
+    fill="#20366e"
+  >CLASSIC</text>
+
+  <g filter="url(#softGlow)">
+    <text
+      x="64"
+      y="84"
+      text-anchor="middle"
+      font-size="55"
+      font-family="Georgia, Times New Roman, serif"
+      fill="#1f120d"
+      stroke="#c9a56a"
+      stroke-width="1.7"
+      paint-order="stroke fill"
+    >&#9822;</text>
+  </g>
+</svg>
