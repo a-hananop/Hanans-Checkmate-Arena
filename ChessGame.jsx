@@ -793,7 +793,7 @@ export default function ChessGame() {
         <div className="top-bar">
           <div className="top-title" style={{display:"flex",alignItems:"baseline",gap:9}}>
             <span style={{fontSize:"clamp(1.1rem,2.5vw,1.5rem)",fontWeight:700,color:"#70b4ff",
-              letterSpacing:"-.02em",textShadow:"0 0 24px rgba(80,160,255,.45)"}}>♟ Chess</span>
+              letterSpacing:"-.02em",textShadow:"0 0 24px rgba(80,160,255,.45)"}}>♟ Hanan's Checkmate Arena</span>
             <span style={{color:"rgba(100,160,255,.3)",fontSize:"9px",letterSpacing:".1em"}}>CLASSIC</span>
           </div>
           <div className="clock-controls" style={{display:"flex",gap:5,alignItems:"center",flexWrap:"wrap"}}>
