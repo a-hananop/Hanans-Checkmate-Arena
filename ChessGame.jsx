@@ -625,8 +625,8 @@ function SetupModal({onStart,initialSettings}){
         maxHeight:"95vh",overflowY:"auto"}}>
         {/* Header */}
         <div style={{textAlign:"center",marginBottom:24}}>
-          <div style={{fontSize:"1.8rem",color:"#70b4ff",fontWeight:700,letterSpacing:"-.02em",
-            textShadow:"0 0 24px rgba(80,160,255,.45)",marginBottom:4, whiteSpace:"nowrap"}}>♟ Hanan's Chess Arena</div>
+          <div style={{fontSize:"1.4rem",color:"#70b4ff",fontWeight:700,letterSpacing:"-.02em",
+            textShadow:"0 0 24px rgba(80,160,255,.45)",marginBottom:4, whiteSpace:"nowrap"}}>♟ Hanan's Checkmate Arena</div>
           <div style={{color:"rgba(140,190,255,.4)",fontSize:"11px",letterSpacing:".08em",
             textTransform:"uppercase"}}>Configure your match</div>
         </div>
@@ -1141,7 +1141,7 @@ export default function ChessGame(){
           flexShrink:0,gap:8}}>
           <div style={{display:"flex",alignItems:"baseline",gap:8}}>
             <span style={{fontSize:"clamp(1rem,2.5vw,1.4rem)",fontWeight:700,color:"#70b4ff",
-              letterSpacing:"-.02em",textShadow:"0 0 24px rgba(80,160,255,.45)"}}>♟ Hanan's Chess Arena</span>
+              letterSpacing:"-.02em",textShadow:"0 0 24px rgba(80,160,255,.45)"}}>♟ Hanan's Checkmate Arena</span>
             {!isMobile&&<span style={{color:"rgba(100,160,255,.3)",fontSize:"9px",letterSpacing:".1em"}}>
               {settings.mode==="pvai"?`CPU · ${settings.diff}`:"vs Human"}
             </span>}
