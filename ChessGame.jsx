@@ -625,7 +625,7 @@ function SetupModal({onStart,initialSettings}){
         maxHeight:"95vh",overflowY:"auto"}}>
         {/* Header */}
         <div style={{textAlign:"center",marginBottom:24}}>
-          <div style={{fontSize:"1.8rem",color:"#70b4ff",fontWeight:700,letterSpacing:"-.02em",
+          <div style={{fontSize:"1.5rem",color:"#70b4ff",fontWeight:700,letterSpacing:"-.02em",
             textShadow:"0 0 24px rgba(80,160,255,.45)",marginBottom:4, whiteSpace:"nowrap"}}>♟ Hanan's Checkmate Arena</div>
           <div style={{color:"rgba(140,190,255,.4)",fontSize:"11px",letterSpacing:".08em",
             textTransform:"uppercase"}}>Configure your match</div>
