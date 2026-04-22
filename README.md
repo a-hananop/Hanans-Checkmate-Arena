@@ -1,4 +1,4 @@
-# Hanan's Chess Arena
+# Hanan's Checkmate Arena
 
 A polished browser-based chess game built with React and Vite. The project includes a custom chess engine, human and computer play modes, time controls, move history, captured piece tracking, and a crystal-themed UI designed for desktop and mobile screens.
 
